@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.fs-1 {
+  font-size: 12px;
+}
+
+.fs-2 {
+  font-size: 14px;
+}
+
+.fs-3 {
+  font-size: 18px;
+}
+
+.fs-4 {
+  font-size: 24px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+p {
+  color: #444545;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.fridgeHome {
+  background-color: #C7E3EE;
+}
+.fridgeHome p {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 14px;
+}
+.fridgeHome .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fridgeHome .container .topCon {
+  width: 375px;
+  background-image: url(../images/kitchen.jpg);
+  background-size: cover;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 30px 30px;
+}
+.fridgeHome .container .topCon .topInfo {
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+}
+.fridgeHome .container .text {
+  width: 375px;
+}
+.fridgeHome .container .funcButton {
+  display: flex;
+  justify-content: center;
+}
+.fridgeHome .container .funcButton .buttonContainer {
+  flex-direction: row;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin: 20px;
+}
+.fridgeHome .container .funcButton .buttonContainer input {
+  width: 86px;
+  height: 90px;
+  padding: 10px 20px 0 20px;
+}
+.fridgeHome .container .funcButton .buttonContainer p {
+  justify-content: center;
+}
+.fridgeHome .container .addFood input {
+  width: 300px;
+  height: 165px;
+  border-radius: 20px;
+}
+
+.fridgePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fridgePage .fridgeNavbar {
+  background-color: #C7E3EE;
+  width: 100%;
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.fridgePage .fridgeNavbar .back input {
+  position: absolute;
+  left: 10%;
+  top: 37%;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+.fridgePage .fridgeNavbar .text p {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF !important;
+}
+
+.foodCard .card {
+  background-color: #F5F5F5;
+  height: 142px;
+  width: 349px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  padding: 10px;
+}
+.foodCard .card .foodImg {
+  margin: 10px;
+}
+.foodCard .card .foodImg img {
+  height: 120px;
+  width: 145px;
+  border-radius: 10px;
+}
+.foodCard .card p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.foodCard .card .foodName p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.foodCard .card .foodName .amount {
+  text-align: center;
+}
+.foodCard .card .operate input {
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=all.css.map */
