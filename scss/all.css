@@ -160,10 +160,18 @@ a {
   background-color: rgb(252, 252, 252);
   color: #fe8b83;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 10px 30px;
-  margin: 10px 0;
+  margin: 20px 0;
   font-size: 20px;
+}
+.addIngredientPage form .uploadImg span {
+  color: #fe8b83;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 .addIngredientPage form .uploadImg input {
   opacity: 0;
