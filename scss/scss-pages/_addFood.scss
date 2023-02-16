@@ -1,4 +1,4 @@
-.addFoodPage{
+.addIngredientPage{
     .container{
         width: 1200px;
         padding: 80px 0;
@@ -24,10 +24,10 @@
             text-align:center;
             border-radius:10px;
             padding:10px 30px;
-            margin: 20px 0;
-            font-size:26px;
+            margin: 10px 0;
+            font-size: 20px;
             input{
-                position: absolute;
+                // position: absolute;
                 opacity: 0;
                 filter: alpha(opacity=0); 
                 //驅動上傳照片 filter:是ie的濾鏡屬性 alpha：濾鏡 opacity：是透明度 範圍0 - 100
