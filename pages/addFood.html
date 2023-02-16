@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/all.css">
+    <title>addIngredientPage</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <span>新增冰箱食材</span>
+            <form>
+                <!-- <input type="file" data-target="file-uploader" accept="image/png, image/jpg" style="display: none"/> -->
+                <div class="uploadImg" >
+                    <p>圖片上傳</p>
+                    <input type="file" accept="image/png, image/jpg">
+                </div>
+
+                <label for="foodName">食物名稱:</label>
+                <input class="labelText" type="text">
+                <label for="foodCount">食物數量:</label>
+                <input class="labelText" type="text">
+                <label for="foodCount">備註:</label>
+                <textarea name="ps" rows="3" cols="5"></textarea>
+                <input class="btn" type="submit" value="送出">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
