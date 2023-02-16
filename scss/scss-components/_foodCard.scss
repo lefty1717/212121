@@ -1,0 +1,45 @@
+.foodCard{
+    .card{
+        background-color: #F5F5F5;
+        height: 142px;
+        width: 349px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-items: space-around;
+        padding: 10px;
+        .foodImg{
+            margin: 10px;
+            img{
+                height: 120px;
+                width: 145px;
+                border-radius: 10px;
+            }
+        }
+            p{
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px;
+            }
+        .foodName{
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            .amount{
+                text-align: center;
+            }
+        }
+
+        .operate{
+            input{
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+}
