@@ -137,6 +137,65 @@ a {
   color: #FFFFFF !important;
 }
 
+.addIngredientPage .container {
+  width: 1200px;
+  padding: 80px 0;
+  margin: auto;
+  text-align: center;
+  background-color: #C7E3EE;
+}
+.addIngredientPage span {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  font-size: 40px;
+}
+.addIngredientPage form {
+  margin: 0 320px;
+}
+.addIngredientPage form .uploadImg {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  background-color: rgb(252, 252, 252);
+  color: #fe8b83;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.addIngredientPage form .uploadImg input {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.addIngredientPage form label {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #FFFFFF;
+  display: block;
+  margin: 20px 0;
+}
+.addIngredientPage form .labelText, .addIngredientPage form textarea {
+  width: 550px;
+  display: block;
+  border-width: 0;
+  padding: 5px 0 30px 5px;
+  margin: 20px 0;
+  outline: none;
+}
+.addIngredientPage form .btn {
+  width: 200px;
+  height: 50px;
+  font-size: 26px;
+  font-family: "Roboto";
+  font-style: normal;
+  background-color: #ffffff;
+  color: #fe8b83;
+  border: 0.5px solid #C7E3EE;
+  border-radius: 25px;
+}
+
 .foodCard .card {
   background-color: #F5F5F5;
   height: 142px;
