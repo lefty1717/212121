@@ -150,10 +150,10 @@ a {
   font-family: Roboto;
   font-size: 40px;
 }
-.addIngredientPage form {
+.addIngredientPage .addfoodForm {
   margin: 0 320px;
 }
-.addIngredientPage form .uploadImg {
+.addIngredientPage .addfoodForm .uploadImg {
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -165,7 +165,7 @@ a {
   margin: 20px 0;
   font-size: 20px;
 }
-.addIngredientPage form .uploadImg span {
+.addIngredientPage .addfoodForm .uploadImg span {
   color: #fe8b83;
   position: absolute;
   top: 0;
@@ -173,18 +173,21 @@ a {
   width: 100%;
   height: 100%;
 }
-.addIngredientPage form .uploadImg input {
+.addIngredientPage .addfoodForm .uploadImg input {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-.addIngredientPage form label {
+.addIngredientPage .addfoodForm .frozentxt {
+  display: inline;
+}
+.addIngredientPage .addfoodForm label {
   font-family: Roboto;
   font-size: 24px;
   color: #FFFFFF;
   display: block;
   margin: 20px 0;
 }
-.addIngredientPage form .labelText, .addIngredientPage form textarea {
+.addIngredientPage .addfoodForm .labelText, .addIngredientPage .addfoodForm textarea {
   width: 550px;
   display: block;
   border-width: 0;
@@ -192,7 +195,7 @@ a {
   margin: 20px 0;
   outline: none;
 }
-.addIngredientPage form .btn {
+.addIngredientPage .addfoodForm .btn {
   width: 200px;
   height: 50px;
   font-size: 26px;

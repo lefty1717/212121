@@ -12,7 +12,7 @@
 <body class="addIngredientPage">
     <div class="container">
         <span>新增冰箱食材</span>
-        <form>
+        <form class="addfoodForm">
             <div class="uploadImg">
                 <span>圖片上傳</span>
                 <input type="file" accept="image/png, image/jpeg">
@@ -21,10 +21,43 @@
             <input class="labelText" type="text">
             <label for="foodCount">食物數量:</label>
             <input class="labelText" type="text">
+
+            <div>
+                <label for="isFrozen" class="frozentxt">是否冷凍:</label>
+                <input type="radio">
+                <label for="yesFrozen"  class="frozentxt">是</label>
+                <input type="radio">
+                <label for="noFrozen"  class="frozentxt">否</label>
+            </div>
+
+            <!-- <label for="foodCount">食物單位</label> -->
+            <!-- <div class="selectCount">
+                <select>
+                    <option value="隻">隻</option>
+                    <option value="條">條</option>
+                    <option value="個">個</option>
+                    <option value="顆">顆</option>
+                    <option value="杯" selected="selected">杯</option>
+                    <option value="瓶">瓶</option>
+                    <option value="罐">罐</option>
+                    <option value="碗">碗</option>
+                    <option value="片">片</option>
+                    <option value="盒">盒</option>
+                </select>
+            </div> -->
+            <!-- <div class="select_style"> 
+                <select name="select"> 
+                  <option>星期1</option> 
+                  <option selected>星期2</option> 
+                  <option>星期3</option> 
+                  <option>星期4</option> 
+                </select> 
+              </div>  -->
+
             <label for="foodCount">備註:</label>
             <textarea name="ps" rows="3" cols="5"></textarea>
-            <input class="btn" type="submit" value="送出"> 
-        <!-- </form>
+            <input class="btn" type="submit" value="送出">
+        </form>
     </div>
 </body>
 
