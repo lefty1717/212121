@@ -241,4 +241,42 @@ a {
 .foodCard .card .operate input {
   width: 18px;
   height: 18px;
+}
+
+.recipeCard .card {
+  background-color: rgba(131, 145, 180, 0.5960784314);
+  height: 200px;
+  width: 243px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-around;
+  padding: 12px;
+}
+.recipeCard .card .xsCard {
+  background-color: rgba(218, 239, 170, 0.5960784314);
+  position: absolute;
+  width: 215px;
+  height: 105px;
+  left: 5.5px;
+  top: 150px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 20px 12px 20px;
+  background: linear-gradient(180deg, #E9E6E6 0%, #FFFFFF 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.recipeCard .card .xsCard .recipeInfo {
+  margin: 9px;
+}
+.recipeCard .card .xsCard .feedback {
+  position: relative;
+  top: 5px;
+}
+.recipeCard .card .xsCard img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
 }/*# sourceMappingURL=all.css.map */
